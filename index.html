@@ -1,59 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <title>Perguntas Ping Pong - Aniversários</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
+      margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #f4f6f8;
-      color: #333;
-      padding: 20px;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      animation: fadeIn 1.2s ease-in-out;
     }
+
     .card {
-      max-width: 700px;
-      margin: auto;
-      background: #ffffff;
-      padding: 25px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+      max-width: 600px;
+      width: 90%;
+      animation: slideUp 1s ease-out;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
-    h2 {
+
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    }
+
+    h1 {
       text-align: center;
       margin-bottom: 20px;
     }
-    ul {
-      list-style: none;
-      padding: 0;
+
+    img {
+      display: block;
+      margin: 0 auto 20px;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #2c5364;
+      transition: transform 0.4s ease;
     }
-    li {
-      margin-bottom: 10px;
+
+    img:hover {
+      transform: rotate(5deg) scale(1.05);
     }
+
+    p {
+      margin: 6px 0;
+    }
+
     strong {
-      color: #000;
+      color: #2c5364;
+    }
+
+    /* Animações */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
+
 <body>
 
   <div class="card">
-    <h2>Perguntas Ping Pong – Aniversários 🎁</h2>
+    <h1>Perguntas Ping Pong – Aniversários 🎁</h1>
 
-    <ul>
-      <li><strong>Cores preferidas:</strong> Preto, Azul escuro, Verde escuro, Vermelho</li>
-      <li><strong>Tamanho do calçado:</strong> 41</li>
-      <li><strong>Tamanho blusa/camisa:</strong> G</li>
-      <li><strong>Tamanho short/calça:</strong> 46</li>
-      <li><strong>Acessórios:</strong> Óculos Sport Praia</li>
-      <li><strong>Prefere doce ou salgado?</strong> Os dois</li>
-      <li><strong>Doces preferidos:</strong> Pastel de carne com açúcar, Romeu e Julieta</li>
-      <li><strong>Sugestões de preferência:</strong> Óculos, camisa manga dry fit, bermuda esportiva, mochila impermeável, relógio casual</li>
-      <li><strong>Alergias:</strong> Não</li>
-    </ul>
+    <!-- Troque pelo nome exato da sua imagem -->
+    <img src="praia.jpg" alt="Minha Foto">
+
+    <p><strong>Cores preferidas:</strong> Preto, Azul escuro, Verde escuro, Vermelho</p>
+    <p><strong>Tamanho do calçado:</strong> 41</p>
+    <p><strong>Tamanho blusa/camisa:</strong> G</p>
+    <p><strong>Tamanho short/calça:</strong> 46</p>
+    <p><strong>Acessórios:</strong> Óculos Sport Praia</p>
+
+    <p><strong>Prefere doce ou salgado?</strong> Os dois</p>
+    <p><strong>Doces preferidos:</strong> Pastel de carne com açúcar, Romeu e Julieta</p>
+    <p><strong>Sugestões de preferência:</strong> Óculos, camisa manga dry fit, bermuda esportiva, mochila impermeável, relógio casual</p>
+    <p><strong>Alergias:</strong> Não</p>
+
   </div>
 
 </body>
 </html>
-
-
