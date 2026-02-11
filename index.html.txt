@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Perguntas Ping Pong - Aniversários</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      padding: 20px;
+    }
+    .card {
+      max-width: 700px;
+      margin: auto;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    strong {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Perguntas Ping Pong – Aniversários 🎁</h2>
+
+    <ul>
+      <li><strong>Cores preferidas:</strong> Preto, Azul escuro, Verde escuro, Vermelho</li>
+      <li><strong>Tamanho do calçado:</strong> 41</li>
+      <li><strong>Tamanho blusa/camisa:</strong> G</li>
+      <li><strong>Tamanho short/calça:</strong> 46</li>
+      <li><strong>Acessórios:</strong> Óculos Sport Praia</li>
+      <li><strong>Prefere doce ou salgado?</strong> Os dois</li>
+      <li><strong>Doces preferidos:</strong> Pastel de carne com açúcar, Romeu e Julieta</li>
+      <li><strong>Sugestões de preferência:</strong> Óculos, camisa manga dry fit, bermuda esportiva, mochila impermeável, relógio casual</li>
+      <li><strong>Alergias:</strong> Não</li>
+    </ul>
+  </div>
+
+</body>
+</html>
